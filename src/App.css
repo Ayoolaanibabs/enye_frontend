@@ -1,0 +1,45 @@
+
+
+h1{
+  font-family: "Bungee Inline", sans-serif;
+            font-weight: 400;
+            font-size: 6rem;
+            color: white;
+            transform: skewY(-5deg);
+            margin-bottom: 6rem;
+            text-align: center;
+            position: relative;
+            word-spacing: 3px;  
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+.next, .previous, .page {
+  padding: 10px;
+  margin: 15px;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 541px){
+  h1{
+    font-size: 40px
+  }
+
+  .next, .previous,.page {
+    padding: 10px;
+    margin: 10px;
+  }
+}

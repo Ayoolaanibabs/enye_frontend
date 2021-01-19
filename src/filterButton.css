@@ -1,0 +1,17 @@
+
+select{
+    height:45px;
+    color: white;
+    background: grey;
+    outline: none;
+    vertical-align: baseline;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+
+@media only screen and (max-width: 541px){
+    select{
+        font-size: 12px;
+    }
+  }

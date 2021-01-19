@@ -1,0 +1,13 @@
+
+body {
+  padding: 6rem 4rem 10rem;
+  font-family: "Nunito Sans", sans-serif;
+  color: #555;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

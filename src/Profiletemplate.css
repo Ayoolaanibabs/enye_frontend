@@ -1,0 +1,51 @@
+.profilecard {
+    background-color: white;
+    border: 2px black;
+    padding: 30px;
+    margin: 20px;
+    width: 250px;
+    height: 550px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.419);
+}
+.profilecard:hover{
+    transform: scale(1.2);
+}
+.image {
+    position: relative;
+}
+
+.image::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .4;
+}
+.profile__img {
+    width: 100%;
+    display: block;
+}
+.profile__name {
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    padding: 1.75rem 1rem;
+    color: white;
+    text-align: center;
+    word-spacing: 2px;
+}
+@media only screen and (max-width: 541px){
+    .profilecard{
+        font-size: 15px;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+  }
